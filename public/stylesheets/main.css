@@ -11,6 +11,7 @@ body {
 
 .company-logo {
   float: left;
+  width: 150;
 }
 
 main {
@@ -62,11 +63,15 @@ main {
   max-height: 200px;
 }
 
-.resume-container img{
+.work_experience-container img{
   float: left;
+  font-weight:bold;
   padding: 10px;
   max-width: 150px;
   max-height: 150px;
+}
+.work_experience-container p{
+  padding-left:150px;
 }
 
 h1 {

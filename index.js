@@ -17,8 +17,8 @@ app.get('/contact', function(request, response) {
   response.render('pages/contact');
 });
 
-app.get('/resume', function(request, response) {
-  response.render('pages/resume');
+app.get('/work_experience', function(request, response) {
+  response.render('pages/work_experience');
 });
 
 app.get('/projects', function(request, response) {
